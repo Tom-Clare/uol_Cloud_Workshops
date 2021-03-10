@@ -5,6 +5,8 @@ imports:
 resources:
 - name: vm1
   type: vm1.jinja
+  properties:
+    diskSizeGb: "100"
 
 - name: vm2
   type: vm2.jinja
