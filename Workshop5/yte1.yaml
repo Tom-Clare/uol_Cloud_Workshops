@@ -1,0 +1,11 @@
+imports:
+- path: bucket.jinja
+- path: disk.jinja
+
+resources:
+- name: bucket-boy
+  type: bucket.jinja
+- name: disk-boy
+  type: disk.jinja
+  properties:
+    zone: us-central1-c
